@@ -47,13 +47,12 @@ public class Leetcode901 {
     }
 
     public static void main(String ...args){
-//        Leetcode901 l = new Leetcode901();
-//        int []arr = new int[]{100,80,60,70,60,75,85};
-//        for(int i : arr){
-//            System.out.println(l.next(i));
-//        }
-        List<Integer> list = new ArrayList<>(1000);
-        System.out.println(list.size());
+        Leetcode901 l = new Leetcode901();
+        int []arr = new int[]{100,80,60,70,60,75,85};
+        for(int i : arr){
+            System.out.println(l.next(i));
+        }
+
 
     }
 }
