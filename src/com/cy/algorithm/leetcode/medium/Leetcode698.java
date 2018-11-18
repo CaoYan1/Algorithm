@@ -1,7 +1,6 @@
-package com.cy.algorithm.Leetcode.medium;
+package com.cy.algorithm.leetcode.medium;
 
 import java.util.Arrays;
-import java.util.Collections;
 
 /**
  * 题名 : 划分k个相等的子集

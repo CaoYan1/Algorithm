@@ -1,4 +1,4 @@
-package com.cy.algorithm.Leetcode.medium;
+package com.cy.algorithm.leetcode.medium;
 
 /**
  * 题名 : 三数之和的多种可能

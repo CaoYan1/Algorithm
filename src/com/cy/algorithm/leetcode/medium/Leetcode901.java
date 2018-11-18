@@ -1,9 +1,6 @@
-package com.cy.algorithm.Leetcode.medium;
+package com.cy.algorithm.leetcode.medium;
 
 import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
 
 /**
  * 题名 : 股票价格跨度

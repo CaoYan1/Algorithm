@@ -1,6 +1,5 @@
-package com.cy.algorithm.Leetcode.medium;
+package com.cy.algorithm.leetcode.medium;
 
-import javax.lang.model.element.Element;
 import java.util.HashMap;
 import java.util.Map;
 
