@@ -1,4 +1,4 @@
-package com.cy.algorithm.leetcode.medium;
+package com.cy.algorithm.Leetcode.medium;
 
 /**
  * 题名 : 将字符串翻转到单调递增

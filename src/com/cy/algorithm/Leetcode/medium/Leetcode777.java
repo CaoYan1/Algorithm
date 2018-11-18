@@ -1,4 +1,4 @@
-package com.cy.algorithm.leetcode.medium;
+package com.cy.algorithm.Leetcode.medium;
 
 /**
  * 题名 : 在LR字符串中交换相邻字符

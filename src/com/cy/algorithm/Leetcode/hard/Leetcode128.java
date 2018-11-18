@@ -1,4 +1,4 @@
-package com.cy.algorithm.leetcode.hard;
+package com.cy.algorithm.Leetcode.hard;
 
 import java.util.HashMap;
 import java.util.Map;
