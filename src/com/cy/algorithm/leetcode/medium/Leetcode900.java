@@ -1,4 +1,4 @@
-package com.cy.algorithm.Leetcode.medium;
+package com.cy.algorithm.leetcode.medium;
 
 /**
  * 題名 : RLE迭代器

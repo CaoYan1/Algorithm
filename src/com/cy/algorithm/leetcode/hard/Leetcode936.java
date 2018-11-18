@@ -1,4 +1,4 @@
-package com.cy.algorithm.Leetcode.hard;
+package com.cy.algorithm.leetcode.hard;
 
 
 import java.util.Stack;
