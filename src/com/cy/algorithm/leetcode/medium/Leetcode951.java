@@ -12,9 +12,7 @@ package com.cy.algorithm.leetcode.medium;
  * @date 18-12-20 20:07
  */
 public class Leetcode951 {
-
-
-
+    
      public class TreeNode {
           int val;
           TreeNode left;
