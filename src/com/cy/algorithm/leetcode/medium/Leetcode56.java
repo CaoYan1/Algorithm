@@ -13,7 +13,7 @@ import java.util.List;
  * @date 19-2-28 08:39
  */
 public class Leetcode56 {
-    
+
      public class Interval {
          int start;
          int end;
