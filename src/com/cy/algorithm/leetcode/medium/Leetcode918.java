@@ -13,7 +13,7 @@ package com.cy.algorithm.leetcode.medium;
  * @author clay
  * @date 18-11-22 14:44
  */
-public class Leetcode$918 {
+public class Leetcode918 {
 
     public int maxSubarraySumCircular(int[] A) {
         int lastMin,lastMax,min,max,sum;
@@ -43,8 +43,5 @@ public class Leetcode$918 {
         return Math.max(sum - min, max);
     }
 
-    public static void main(String ...args){
-        Leetcode$918 l = new Leetcode$918();
-        System.out.println(l.maxSubarraySumCircular(new int[]{5,-3,5}));
-    }
+
 }

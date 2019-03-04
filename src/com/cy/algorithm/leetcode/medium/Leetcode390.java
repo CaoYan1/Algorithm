@@ -8,16 +8,16 @@ package com.cy.algorithm.leetcode.medium;
  * 我们不断重复这两步，从左到右和从右到左交替进行，直到只剩下一个数字。
  * 返回长度为 n 的列表中，最后剩下的数字。
  *
- * 思路 : 第一种方法，别人的证明过程:https://blog.csdn.net/afei__/article/details/83689502
- * 第二种方法好理解一些，不断构造下一次的递归序列，将递归分为两部分，ｆ和ｂ，ｆ是从左向右，ｂ为从右向左．
+ * 思路 : 不断构造下一次的递归序列，将递归分为两部分，ｆ和ｂ，ｆ是从左向右，ｂ为从右向左．
  * ｆ(n)= 2 * b(n/2),筛选掉奇数之后把剩余的数字除以２就是一个ｎ／２的列表了，最后结果在乘２就行
  * ｂ(n) = 2 * f(n/2) ｎ为奇数的时候筛选掉的全是奇数，跟上面情况差不多，除以２构造下一层递归
  * ｂ(n) = f(n/2) * 2 - 1 ｎ为偶数的时候筛选掉的全是偶数，把剩下的奇数加１除以２之后就构造了一个ｎ／２的列表
  * @author clay
  * @date 19-1-21 17:42
  */
-public class Leetcode$390 {
+public class Leetcode390 {
     class Solution {
+        
         public int lastRemaining(int n) {
             return n == 1 ? 1 : 2 * (n / 2 + 1 - lastRemaining(n / 2));
         }

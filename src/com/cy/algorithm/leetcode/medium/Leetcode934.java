@@ -4,12 +4,12 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * description
+ *
  *
  * @author clay
  * @date 18-12-8 16:04
  */
-public class Leetcode$934 {
+public class Leetcode934 {
     class Solution {
         public int shortestBridge(int[][] A) {
             Queue<int[]> queue = new LinkedList<>();
@@ -62,9 +62,4 @@ public class Leetcode$934 {
         }
     }
 
-    public static void main(String ...args){
-        Solution s = new Leetcode$934().new Solution();
-        int result = s.shortestBridge(new int[][]{{0,1,0},{0,0,0},{0,0,1}});
-        System.out.println(result);
-    }
 }

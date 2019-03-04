@@ -12,7 +12,7 @@ import java.util.Set;
  * @author clay
  * @date 18-11-23 10:05
  */
-public class Leetcode$939 {
+public class Leetcode939 {
 
     public int minAreaRect(int[][] points) {
         final int MAX = 40000;
@@ -32,8 +32,5 @@ public class Leetcode$939 {
 
     }
 
-    public static void main(String ...args){
-        Leetcode$939 l = new Leetcode$939();
-        System.out.println(l.minAreaRect(new int[][]{{1,1},{1,3},{3,1},{3,3},{2,2}}));
-    }
+
 }

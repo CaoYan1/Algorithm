@@ -23,7 +23,7 @@ package com.cy.algorithm.leetcode.medium;
  * @author clay
  * @date 18-12-22 20:23
  */
-public class Leetcode$808 {
+public class Leetcode808 {
 
     class Solution {
 
@@ -48,10 +48,4 @@ public class Leetcode$808 {
         }
     }
 
-    public static void main(String[] args){
-        Solution s = new Leetcode$808().new Solution();
-        System.out.println(s.soupServings(4800));
-
-
-    }
 }

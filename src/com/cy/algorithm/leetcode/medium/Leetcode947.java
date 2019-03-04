@@ -17,7 +17,7 @@ import java.util.Set;
  * @author clay
  * @date 18-12-18 20:34
  */
-public class Leetcode$947 {
+public class Leetcode947 {
     class Solution {
         public int removeStones(int[][] stones) {
             int[] parent = new int[20000];

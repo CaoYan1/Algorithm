@@ -18,7 +18,7 @@ import java.util.List;
  * @author clay
  * @date 18-12-7 21:27
  */
-public class Leetcode$932 {
+public class Leetcode932 {
     class Solution {
         public int[] beautifulArray(int N) {
             if(N == 1){
@@ -29,9 +29,9 @@ public class Leetcode$932 {
             int[] right = beautifulArray(N / 2);
             for(int i = 0; i < N; i++){
                 if(i < left.length){
-                    result[i] = left[i];
+                    result[i] = left[i] * 2 - 1;
                 }else {
-                    result[i] = right[i - left.length];
+                    result[i] = right[i - left.length] * 2;
                 }
             }
             return result;
